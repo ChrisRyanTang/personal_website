@@ -11,11 +11,12 @@ h2 {
     text-align: center;
 }
 
-ul {
-    text-align: center;
-}
-
 body {
     background-color: lavenderblush;
     text-align: center;
+}
+
+#navigation {
+    text-align: center;
+    background-color: aquamarine;
 }
