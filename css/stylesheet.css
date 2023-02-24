@@ -1,27 +1,42 @@
-p {
-    text-align: center;
-}
-
 h1 {
-    color: lightblue;
-    text-align: center;
-    font-family: "montserrat", sans-serif;
-}
-
-h2 {
-    text-align: center;
+    color: #024750;
+    font-family: 'Montserrat', sans-serif;  
 }
 
 body {
     background-color: lavenderblush;
-    text-align: center;
 }
 
-#navigation {
+
+#shoulders {
+    background-color: #DFBEEF;
     text-align: center;
-    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
 }
 
-.header {
-    background-color: darkorchid;
+#identity {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* ***************************************Flex box*************************************************************** */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#about {
+
+}
+
+.p1 {
+    grid-column: 1/2;
+}
+
+#image {
+
 }
